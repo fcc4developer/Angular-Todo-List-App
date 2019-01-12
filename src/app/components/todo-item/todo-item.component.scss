@@ -1,0 +1,48 @@
+.todo-item {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 0.3s;
+  color: #fff;
+  font-size: 18px;
+}
+
+.remove-item {
+  cursor: pointer;
+  margin-left: 14px;
+
+}
+
+.todo-item-left {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item-label {
+  padding: 10px;
+
+  margin-left: 12px;
+}
+
+.todo-item-edit {
+
+  font-size: 18px;
+  color: rgb(95, 95, 95);
+  margin-left: 12px;
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid transparent; 
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+    background: rgb(202, 255, 149);
+    color: rgb(52, 104, 0);
+  }
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(1, 91, 121);
+}

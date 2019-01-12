@@ -1,0 +1,67 @@
+.todo-input {
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 16px;
+  color: rgb(95, 95, 95);
+  margin-bottom: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.extra-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: rgb(157, 255, 59);
+  border-top: 1px solid lightgrey;
+  padding-top: 14px;
+  margin-bottom: 14px;
+}
+
+button {
+  font-size: 14px;
+  padding: 7px 10px;
+  margin-right: 5px;
+  background-color: rgb(3, 108, 143);
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  appearance: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+
+
+  &:hover {
+    background: rgb(1, 91, 121);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.active {
+  background: rgb(1, 91, 121);
+}
+
+// CSS Transitions
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.fa-times-circle {
+  color: rgb(157, 255, 59);
+
+  &:hover {
+    color: rgb(131, 214, 48);
+  }
+}
